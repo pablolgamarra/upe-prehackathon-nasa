@@ -57,9 +57,44 @@ input[type="text"], textarea {
     width: 95%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #778588;
     border-radius: 4px;
 }
+
+input[type="date"] {
+    --color: #256d7b;
+  
+    border: 1px solid var(--color);
+    font-size: 1.1rem;
+    background: #256d7b;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+  
+    &::-webkit-datetime-edit {
+      margin-right: 0.5rem;
+    }
+  
+    &::-webkit-datetime-edit-fields-wrapper {
+      background: #256d7b;
+      border-radius: 8px;
+      padding: 4px 10px;
+    }
+  
+    &::-webkit-datetime-edit-text {
+      color: #256d7b;
+    }
+  
+    &::-webkit-datetime-edit-day-field:focus,
+    &::-webkit-datetime-edit-month-field:focus,
+    &::-webkit-datetime-edit-year-field:focus {
+      background: #256d7b;
+    }
+  
+    &::-webkit-calendar-picker-indicator {
+      filter:invert(1);
+    }
+  }
 
 button {
     width: 100%;
