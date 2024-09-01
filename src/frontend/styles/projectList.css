@@ -1,11 +1,16 @@
+.content {
+}
+
 /* Estilo general del contenedor de las cards */
 .card-container {
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	gap: 20px;
+	flex-direction: row;
+	justify-content: center; /* Opcional: Centra las cards horizontalmente */
+	gap: 20px; /* Espacio entre las cards */
 	padding: 20px;
 	background-color: #f4f4f4;
+	flex-wrap: nowrap; /* Asegura que las cards no se envuelvan */
+	overflow-x: auto; /* Permite desplazamiento horizontal si las cards no caben en la pantalla */
 }
 
 /* Estilo de las cards individuales */
@@ -17,6 +22,7 @@
 	padding: 20px;
 	text-align: left;
 	transition: transform 0.3s, box-shadow 0.3s;
+	flex-shrink: 0; /* Evita que las cards se encojan si hay muchas en una fila */
 }
 
 /* Efecto hover para las cards */
