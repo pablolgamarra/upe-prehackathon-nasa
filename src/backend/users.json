@@ -1,0 +1,27 @@
+[
+	{
+		"username": "Pablo Gamarra",
+		"mail": "pablo@proyecto.hack",
+		"password": "contraseñaGeneradaAleatoriamente"
+	},
+	{
+		"username": "Milena Leon",
+		"mail": "mile@proyecto.hack",
+		"password": "contraseñaGeneradaAleatoriamente"
+	},
+	{
+		"username": "Ingrid Acosta",
+		"mail": "maya@proyecto.hack",
+		"password": "contraseñaGeneradaAleatoriamente"
+	},
+	{
+		"username": "Rocely Masi",
+		"mail": "rose@proyecto.hack",
+		"password": "contraseñaGeneradaAleatoriamente"
+	},
+	{
+		"username": "Ian Segovia",
+		"mail": "ian@proyecto.hack",
+		"password": "contraseñaGeneradaAleatoriamente"
+	}
+]
