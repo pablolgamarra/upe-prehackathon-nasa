@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dbe5e8; /* Fondo gris muy claro */
+    color: #256d7b; /* Color de texto principal */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #256d7b; /* Fondo azul oscuro para el header */
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color blanco para los enlaces en el menú */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #b8ccd1; /* Color de enlace al pasar el ratón por encima */
+}
+
+#hero {
+    background-color: #739ba5; /* Fondo azul claro para la sección principal */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#hero h1 {
+    color: #ffffff; /* Texto blanco en el encabezado */
+    font-size: 36px;
+}
+
+#hero p {
+    color: #ffffff; /* Texto blanco para el párrafo */
+    font-size: 18px;
+}
+
+.section {
+    background-color: #ffffff; /* Fondo blanco para las secciones */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #256d7b; /* Color de encabezado */
+}
+
+.section p {
+    color: #4f8490; /* Color de texto para las descripciones */
+}
+
+.section .btn {
+    display: inline-block;
+    background-color: #256d7b; /* Botones de color azul oscuro */
+    color: #ffffff; /* Texto blanco en los botones */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.section .btn:hover {
+    background-color: #4f8490; /* Cambio de color del botón al pasar el ratón */
+}
+
+footer {
+    background-color: #256d7b; /* Fondo azul oscuro para el pie de página */
+    color: #ffffff; /* Texto blanco en el pie de página */
+    text-align: center;
+    padding: 10px 0;
+}
