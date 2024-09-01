@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe5e8; 
+    color: #256d7b;
+}
+
+/* Estilos para la barra de navegación */
+header {
+    background-color: #256d7b;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #ffffff; /* Color blanco para los enlaces en el menú */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #b8ccd1; /* Color de enlace al pasar el ratón por encima */
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input[type="text"], textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #778588;
+    border-radius: 4px;
+}
+
+input[type="date"] {
+    --color: #256d7b;
+  
+    border: 1px solid var(--color);
+    font-size: 1.1rem;
+    background: #256d7b;
+    color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+  
+    &::-webkit-datetime-edit {
+      margin-right: 0.5rem;
+    }
+  
+    &::-webkit-datetime-edit-fields-wrapper {
+      background: #256d7b;
+      border-radius: 8px;
+      padding: 4px 10px;
+    }
+  
+    &::-webkit-datetime-edit-text {
+      color: #256d7b;
+    }
+  
+    &::-webkit-datetime-edit-day-field:focus,
+    &::-webkit-datetime-edit-month-field:focus,
+    &::-webkit-datetime-edit-year-field:focus {
+      background: #256d7b;
+    }
+  
+    &::-webkit-calendar-picker-indicator {
+      filter:invert(1);
+    }
+  }
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #256d7b; /* Botones de color azul oscuro */
+    color: #ffffff; /* Texto blanco en los botones */
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #4f8490;
+}
+footer {
+    background-color: #256d7b; /* Fondo azul oscuro para el pie de página */
+    color: #ffffff; /* Texto blanco en el pie de página */
+    text-align: center;
+    padding: 10px 0;
+}
